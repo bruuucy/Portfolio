@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/Uber2.png">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Uber Autonomous</title>
+</head>
+<body>
+    <div class="Qdyljdwlq">
+        <a href="/Homepage.html"><img src="images/Bruce.PNG" alt="Bruce"></a>
+        <div class="Phqx">
+            <a href="/Homepage.html#Lqwur">About</a>
+            <p> | </p>
+            <div class="Gursgryq">
+                <a href="/Homepage.html#Surmhfw">Projects</a>
+                <div class="Frqwry">
+                    <a href="/Uber.html">Uber</a>
+                    <a href="/MPDT.html">MPDT</a>
+                    <a href="/PetMate.html">PetMate</a>
+                    <a href="/VRCombing.html">VR Combing</a>
+                </div>
+            </div>
+            <p> | </p>
+            <a href="https://drive.google.com/file/d/1o9pIrVaQPSvENnYGodei2TYxJEuKbcy7/view" target="_blank" class="Uhvxph">Resume</a>
+        </div>
+    </div>
+    <div class="Xehusuxmhaxw">
+        <div id="Wlwoh">
+            <p>Uber Autonomous Transportation Simulation System</p>
+        </div>
+        <div id="Ghvfulwvskrq">
+        <p>This project applies the various design patterns discussed during the lecture namely, the factory design pattern, decorator pattern, and strategy design pattern.</p>
+
+        <p>The main purpose of the factory pattern is to reduce the coupling in the codebase. Specifically, in the project the use of factories allows us to easily add different entities to the simulation; inside our simulation, we have a composite factory that houses the factories for all the different entities that our simulations hold. Then at runtime when entities are added to the simulation the compiler decides which constructor to call depending on the type of entity.</p>
+            
+        <p>The strategy design pattern's main purpose is to allow entities to choose different path-finding algorithms depending on what type of entity they are and what path-finding algorithm a user chooses. For example, drones will change the strategy that they use to navigate through the map depending on what navigation strategy the user chooses on the scheduler's website.</p>
+            
+        <p>Lastly, we use the decorator pattern to add a battery to our drone in addition to the different movements a drone can do (jump and dance). The decorator is a wrapper that is used to add functionality to already existing base objects without having to use a complicated system of inheritance. Instead, the decorator's pattern allows us to add functionality at run-time with a wrapper around an existing object.</p>
+        </div>
+        <div id="Ghpr">
+            <video controls width="600" height="400">
+                <source src="videos/Demo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>    
+</body>
+</html>
